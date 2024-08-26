@@ -1,0 +1,14 @@
+//Josue Ernesto Velasquez Cruz
+
+//Declaracion de variables
+const camisetas = 180;
+const pantalones = 120;
+const zapatos = 150;
+
+const totalProductos = camisetas + pantalones + zapatos;
+
+if (camisetas < 100 || pantalones < 100 || zapatos <100){
+    console.log("es necesario reponer camisetas o pantalones o zapatos de acuerdo sea el caso. ");
+} else {
+    console.log("No es necesario reponer ningun producto.");
+}
